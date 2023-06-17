@@ -11,7 +11,7 @@ If you want to see how it was used in the paper visit https://github.com/NeuroGa
 
 
 Implemented statistics options (for more details see decoding_stats.m and **time_resolved_stats** repository):
-- Analytic solution - relevant for accuracy results only - implemented by the function binomial_test.m. If you use this through decoding_stats.m false discovery rate is corrected using FDR.m (see more details below).
+- Analytic solution - relevant for accuracy results only - implemented by the function binomial_test.m in this repository. If you use this through decoding_stats.m false discovery rate is corrected using FDR.m (see more details below).
 - Point-by-point permutations - implemented in the function perm_pvals.m in the time_resolved_stats repository. FDR correction when used through decoding_stats.m as in the analytic case.
 - Max-statistic correction for multiple comparisons, using the function max_stat_correction.m in the time_resolved_stats repository. See Nichols & Holmes, 2002; https://doi.org/10.1002/hbm.1058 for more details.
 - Cluster-based permutations correction for multiple comparisons, using the function run_cluster_perm.m in the time_resolved_stats repository, see Maris & Oostenveld, 2007; https://doi.org/10.1016/j.jneumeth.2007.03.024 for more details. Credit is due to Edden Gerber, an early version of this function is based on his code (see also https://edden-gerber.github.io/eeg_functions/).
