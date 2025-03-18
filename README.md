@@ -5,7 +5,7 @@ The decoding is performed using the MVPA_Light toolbox (citation below, function
 
 MVPA Light: Treder, MS Frontiers in Neuroscience (2020) https://doi.org/10.3389/fnins.2020.00289. Code here: https://github.com/treder/MVPA-Light (worked with a version downloaded on 04/02/2021).
 
-This was written as part of the analysis for the following manuscript (so please cite if you use it): Vishne et al., Cell Reports 2023, 'Distinct Ventral Stream and Prefrontal Cortex Representational Dynamics during Sustained Conscious Visual Perception' (biorxiv DOI, to be updated when formally published): https://doi.org/10.1101/2022.08.02.502469.
+This was written as part of the analysis for the following manuscript (so please cite if you use it): Vishne et al., Cell Reports 2023, 'Distinct Ventral Stream and Prefrontal Cortex Representational Dynamics during Sustained Conscious Visual Perception': https://doi.org/10.1016/j.celrep.2023.112752.
 
 If you want to see how it was used in the paper visit https://github.com/NeuroGal/PersistentViewing_paper (folder: ‘3. Categories (decoding)’) - this also includes functions for plotting the output (see ‘Helper Functions’: nice_line_plot.m for time-point by time-point decoding and plot_results_mat.m for temporal generalization results).
 
